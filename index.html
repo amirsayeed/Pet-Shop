@@ -30,53 +30,94 @@
 
 <body>
     <header class="container mx-auto sora">
-        <div class="navbar bg-[#FFF9F4] max-w-screen-2xl text-[#111111]">
+        <div class="navbar bg-[#FFF9F4] text-[#111111]">
             <div class="navbar-start gap-2">
                 <img src="./c1-assets/logo-header.png" alt="">
-                <h3 class="text-2xl">Browse<span>4</span>Pets</h3>
+                <h3 class="text-2xl">Browse<span class="text-[#FFDC26]">4</span>Pets</h3>
             </div>
             <div class="navbar-center hidden md:flex">
-                <ul class="menu menu-horizontal px-1">
+                <ul class="menu menu-horizontal px-1 text-lg font-normal">
                     <li><a href="">Find a pet</a></li>
                     <li><a href="">Breeds</a></li>
                     <li><a href="">Contact us</a></li>
                 </ul>
             </div>
-            <div class="navbar-end">
-                <button class="btn btn-ghost">
-                    <div class="indicator">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                            stroke="currentColor" class="size-6">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                                d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0" />
-                        </svg>
-                    </div>
-                </button>
-                <button class="btn btn-ghost">
+            <div class="navbar-end gap-2">
+                <div class="indicator">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0" />
+                    </svg>
+                </div>
+                <div>
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                         stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                             d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                     </svg>
-                </button>
-                <button class="btn">Login</button>
-                <button class="btn">Register</button>
+                </div>
+                <button class="btn text-lg font-normal">Login</button>
+                <button class="btn bg-[#FFDC26] text-lg font-normal">Register</button>
             </div>
         </div>
 
-        <div class="banner-container relative border mt-5">
+        <div class="banner-container relative mt-20">
             <img src="./c1-assets/cat-big.png" alt="">
-            <div class="flex flex-col items-start justify-start absolute top-20">
-                <h1 class="text-5xl">Pamper Your Pet,<br> Because They Deserve<br> the Best</h1>
-                <p class="text-xl">Discover a world of treats, toys, and essentials handpicked for<br> your furry
+            <div class="flex flex-col items-start justify-start absolute top-20 gap-4">
+                <h1 class="text-5xl leading-tight adlam-display">Pamper Your Pet,<br> Because They Deserve<br> the Best
+                </h1>
+                <p class="text-xl leading-9">Discover a world of treats, toys, and essentials handpicked for<br> your
+                    furry
                     friends. Shop now and
                     make tails wag with joy!</p>
-                <button class="btn text-xl">Find a pet</button>
+                <button class="btn text-xl bg-[#FFDC26]">Find a pet</button>
             </div>
         </div>
     </header>
-    <main>
-        <section></section>
+    <main class="container mx-auto">
+        <section class="mt-20">
+            <div>
+                <h2 class="text-4xl adlam-display">Browse By Categories</h2>
+                <div class="flex flex-wrap mt-16 md:items-center md:justify-between gap-2 text-center">
+                    <div class="bg-[#F9DF8A] px-12 py-8 rounded-xl flex flex-col gap-1">
+                        <img class="p-3 rounded-full bg-white" src="./c1-assets/dog-cartoon.png" alt="">
+                        <h4 class="adlam-display text-xl">Dog</h4>
+                        <p>3 items</p>
+                    </div>
+                    <div class="bg-[#F9DF8A] px-12 py-8 rounded-xl flex flex-col gap-1">
+                        <img class="p-3 rounded-full bg-white" src="./c1-assets/fish-cartoon.png" alt="">
+                        <h4 class="adlam-display text-xl">Fish</h4>
+                        <p>3 items</p>
+                    </div>
+                    <div class="bg-[#F9DF8A] px-12 py-8 rounded-xl flex flex-col gap-1">
+                        <img class="p-3 rounded-full bg-white" src="./c1-assets/cat-cartoon.png" alt="">
+                        <h4 class="adlam-display text-xl">Cat</h4>
+                        <p>3 items</p>
+                    </div>
+                    <div class="bg-[#F9DF8A] px-12 py-8 rounded-xl flex flex-col gap-1">
+                        <img class="p-3 rounded-full bg-white" src="./c1-assets/bird-cartoon.png" alt="">
+                        <h4 class="adlam-display text-xl">Bird</h4>
+                        <p>3 items</p>
+                    </div>
+                    <div class="bg-[#F9DF8A] px-12 py-8 rounded-xl flex flex-col gap-1">
+                        <img class="p-3 rounded-full bg-white" src="./c1-assets/fish-cartoon.png" alt="">
+                        <h4 class="adlam-display text-xl">Fish</h4>
+                        <p>3 items</p>
+                    </div>
+                    <div class="bg-[#F9DF8A] px-12 py-8 rounded-xl flex flex-col gap-1">
+                        <img class="p-3 rounded-full bg-white" src="./c1-assets/mouse-cartoon.png" alt="">
+                        <h4 class="adlam-display text-xl">Small Pet</h4>
+                        <p>3 items</p>
+                    </div>
+                    <div class="bg-[#F9DF8A] px-12 py-8 rounded-xl flex flex-col gap-1">
+                        <img class="p-3 rounded-full bg-white" src="./c1-assets/rabbit-cartoon.png" alt="">
+                        <h4 class="adlam-display text-xl">Rabbit</h4>
+                        <p>3 items</p>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section></section>
         <section></section>
         <section></section>
