@@ -1,10 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.banner-container{
+.banner-container {
     background-image: url('./c1-assets/cat-big.png');
     background-repeat: no-repeat;
+}
+
+.hero {
+    background: linear-gradient(134.71deg, rgb(248, 204, 251) 1.286%, rgb(172, 210, 253) 100%);
+    ;
 }
