@@ -4,9 +4,8 @@
     box-sizing: border-box;
 }
 
-#banner-container {
-    background-image: url('./c1-assets/cat-big.png');
-    background-repeat: no-repeat;
+#pet-products>img {
+    float: right;
 }
 
 .price-container>.hero {
